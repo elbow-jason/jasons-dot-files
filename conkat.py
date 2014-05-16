@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 #open it
-f = open('jasons-commands.txt')
+f = open('jasons-commands.sh')
 contents = f.read()
 f.close()
 #remove all the newlines
