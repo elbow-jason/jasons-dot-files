@@ -7,7 +7,8 @@ Powered by a small python script.
 info:
 --------
 I currently use Linux Mint 16 Petra (Ubuntu 13.10, Saucy Salamander).
-caveat: I have yet to try the script. Will do soon. 
+caveat 1: I have yet to try the script. Will do soon.
+caveat 2: one must still configure git remotes to auto-push and such; this scropt simply sets up the SSH. 
 
 
 use:
@@ -55,6 +56,8 @@ this shell script...
 	+ nodejs				(it's like chrome without the browser)
 	+ rvm 					(changes 'usage' ever 10 days, wants to be different)
 	+ ruby					(the thing rails uses to practically build itself)
+		+ pry 				(ruby debugger causes a breakpoint in the execution of ruby)
+		+ bundle			(for packaging a ruby project's gem dependecies)
 	+ sublime text 3        (i like the color and the autocomplete best)
 	+ python-pip			(python does not work without pip. DONT LIE TO YOURSELF.)
 	+ phantomjs				(from a repo so i takes 1/100000th the time to install)
