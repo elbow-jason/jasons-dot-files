@@ -82,6 +82,10 @@ sudo apt-get install phantomjs
 
 
 
+echo KEEP THE AUTOREMOVE AS THE LAST FUCNTIONAL COMMAND;
+sudo apt-get autoremove;
+echo FRESH INSTALL COMMANDS COMPLETE;
+echo HAVE A NICE DAY;
 
 
 
