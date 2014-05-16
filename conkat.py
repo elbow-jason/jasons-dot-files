@@ -1,4 +1,4 @@
-!#/usr/bin/python
+#!/usr/bin/python
 
 #open it
 f = open('jasons-commands.txt')
