@@ -63,6 +63,7 @@ this shell script...
 	+ python-pip			(python does not work without pip. DONT LIE TO YOURSELF.)
 		+ ipython			(the best python package ever. EVER.)
 		+ ipython notebook	(the best way to learn python)
+		+ virtualenv		(to prevent package version collisions on projects)
 
 	+ phantomjs				(from a repo so it takes 1/100000th the time to install)
 

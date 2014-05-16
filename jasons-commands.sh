@@ -72,11 +72,13 @@ bash;
 rvm default 2.1.1;
 bash;
 
-echo "GET THE PYTHON2.7.5+"
+echo "GET THE PYTHON2.7.5+ pieces"
 sudo apt-get install python-pip; 
+sudo apt-get install ipython;
 sudo apt-get install ipython-notebook;
+sudo pip install virtualenv;
 
-echo "SETUP GIT SSH ";
+echo "SETUP GIT SSH";
 cd ~/.ssh;
 ssh-keygen -t rsa -C $github_email;
 ssh-add ~/.ssh/id_rsa; 
