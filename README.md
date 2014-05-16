@@ -1,7 +1,7 @@
 fresh-mint-install
 ===============================
 A shell script of all commands I run after reinstalling my entire OS.
- 
+
 Powered by a small python script.
 
 
@@ -9,7 +9,7 @@ info:
 --------
 + I currently use Linux Mint 16 Petra (Ubuntu 13.10, Saucy Salamander).
 + caveat 1: I have yet to try the script. Will do soon.
-+ caveat 2: one must still configure git remotes to auto-push and such; this scropt simply sets up the SSH. 
++ caveat 2: one must still configure git remotes to auto-push and such; this script simply sets up the local ssh key and prompts the user to add the key to their github account settings. 
 
 
 use:
