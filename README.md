@@ -32,7 +32,6 @@ this shell script...
     ~/Workspace
     ~/extras
     ~/extras/Programs/    (node goes in here)
-    
 *installs:
 	-git  					(for version control and open source deving)
 	-google chrome			(a browser of interwebs)
@@ -46,6 +45,5 @@ this shell script...
 	-sublime text 3         (i like the color and the autocomplete best)
 	-python-pip				(python does not work without pip. DONT LIE TO YOURSELF.)
 	-phantomjs				(from a repo so i takes 1/100000th the time to install)
-
 *configures	(assuming you entered your stuff correctly):
 	-git               		(generates and saves local SSH key and sets up git globals)
