@@ -16,7 +16,7 @@ use:
 ---------
 1. copy 'doit.sh' text from the github raw (right click "Save As..")
 1. save it as doit.sh
-1. `$ sh doit.sh`
+1. `$ sudo sh doit.sh`
 1. enter your name at the prompt
 1. enter your github email at the prompt
 1. enter your sudo pw at the prompt(s)
@@ -26,13 +26,13 @@ use:
 
 what I do:
 ---------
-I add a command to jasons-commands.sh when I want to use it after a reinstall.
-To produce doit.sh, I run `$ python conkat.py` before I push.
++ I add a command to jasons-commands.sh when I want to use it after a reinstall.
++ To produce doit.sh, I run `$ python conkat.py` before I push.
 
 
 what conkat.py does:
 -----------
-conkat.py removes '\n' (newlines) from jasons-commands.sh and saves the altered text in doit.sh (it's only 7 lines of working code)
++ conkat.py removes '\n' (newlines) from jasons-commands.sh and saves the altered text in doit.sh (it's only 7 lines of working code)
 
 this shell script...
 ----------------
