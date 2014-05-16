@@ -74,8 +74,7 @@ bash;
 
 echo "GET THE PYTHON2.7.5+ pieces"
 sudo apt-get install python-pip; 
-sudo apt-get install ipython;
-sudo apt-get install ipython-notebook;
+pip install ipython[all]
 sudo pip install virtualenv;
 
 echo "SETUP GIT SSH";
