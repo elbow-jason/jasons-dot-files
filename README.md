@@ -14,9 +14,9 @@ info:
 
 use:
 ---------
-1. copy 'doit.sh' text from the github raw
+1. copy 'doit.sh' text from the github raw (right click "Save As..")
 1. save it as doit.sh
-1. run doit.sh
+1. `$ sh doit.sh`
 1. enter your name at the prompt
 1. enter your github email at the prompt
 1. enter your sudo pw at the prompt(s)
