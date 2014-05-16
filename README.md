@@ -1,23 +1,7 @@
 jason-s-post-reinstall-commands
 ===============================
 a little python file AND a shell script of all commands I run after reinstalling my entire OS.
-I currently use Linux Mint:
-
-`$ cat /etc/*-release`
-
-> DISTRIB_ID=LinuxMint
-> DISTRIB_RELEASE=16
-> DISTRIB_CODENAME=petra
-> DISTRIB_DESCRIPTION="Linux Mint 16 Petra"
-> NAME="Ubuntu"
-> VERSION="13.10, Saucy Salamander"
-> ID=ubuntu
-> ID_LIKE=debian
-> PRETTY_NAME="Ubuntu 13.10"
-> VERSION_ID="13.10"
-> HOME_URL="http://www.ubuntu.com/"
-> SUPPORT_URL="http://help.ubuntu.com/"
-> BUG_REPORT_URL="http://bugs.launchpad.net/ubuntu/"
+I currently use Linux Mint 16 Petra (Ubuntu 13.10, Saucy Salamander).
 
 
 use:
@@ -71,3 +55,34 @@ this shell script...
 
 * configures	(assuming you entered your the info correctly):
 	+ git               	(generates and saves local SSH key and sets up git globals)
+
+
+My OS Version
+------
+	`$ cat /etc/*-release` produces the following:
+
+> DISTRIB_ID=LinuxMint
+
+> DISTRIB_RELEASE=16
+
+> DISTRIB_CODENAME=petra
+
+> DISTRIB_DESCRIPTION="Linux Mint 16 Petra"
+
+> NAME="Ubuntu"
+
+> VERSION="13.10, Saucy Salamander"
+
+> ID=ubuntu
+
+> ID_LIKE=debian
+
+> PRETTY_NAME="Ubuntu 13.10"
+
+> VERSION_ID="13.10"
+
+> HOME_URL="http://www.ubuntu.com/"
+
+> SUPPORT_URL="http://help.ubuntu.com/"
+
+> BUG_REPORT_URL="http://bugs.launchpad.net/ubuntu/"
