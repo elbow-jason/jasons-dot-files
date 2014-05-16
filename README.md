@@ -69,7 +69,11 @@ this shell script...
 
 My OS Version
 ------
-	`$ cat /etc/*-release` produces the following:
+running
+ 
+> `$ cat /etc/*-release` 
+
+ produces the following:
 
 > DISTRIB_ID=LinuxMint
 
