@@ -65,7 +65,17 @@ sudo make install;
 
 echo GET RUBY;
 echo;
-sudo apt-get install curl; \curl -sSL https://get.rvm.io | bash; rvm install 2.1.1; sudo gem install bundle;
+sudo apt-get install curl; 
+\curl -sSL https://get.rvm.io | bash; 
+rvm install 2.1.1; 
+sudo gem install bundle;
+sudo gem install pry;
+bash;
+/bin/bash --login;
+rvm default 2.1.1;
+bash;
+
+
 
 echo GET SUBLIME TEXT 3;
 sudo add-apt-repository ppa:webupd8team/sublime-text-3;
