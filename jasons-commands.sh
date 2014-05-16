@@ -85,7 +85,7 @@ ssh-add ~/.ssh/id_rsa;
 sudo apt-get install xclip;
 echo "SECOND TO LAST THING HERE...."
 xclip -sel clip < ~/.ssh/id_rsa.pub;
-read -p "GO TO GITHUB.COM -> ACCOUNT SETTING-> SSH KEYS -> ADD SSH KEY... type a title and them paste into the field. (the ssh key is already copied. JUST EFFING PASTE then <PRESS ENTER> when done.";
+read -p "GO TO GITHUB.COM -> ACCOUNT SETTING-> SSH KEYS -> ADD SSH KEY...type a title and them paste into the field. (the ssh key is already copied. JUST EFFING PASTE then <PRESS ENTER> when done.";
 read -p "i hope you actually added the ssh-key to github or you break the script"	
 ssh -T git@github.com;
 git config --global user.email $github_email ;
