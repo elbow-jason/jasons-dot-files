@@ -1,42 +1,54 @@
-echo GET USER INFO FOR SETUP;
-echo;
+echo "GET USER INFO FOR SETUP";
+echo "FOLLOW THESE INSTRUCTIONS..."
 read -p "ENTER YOUR NAME: " users_name ;
 read -p "ENTER YOUR GITHUB EMAIL: " github_email ;
+echo "SUDO LS for SUDO login"
+sudo ls
 
-echo CREATE ALL THE DIRECTORIES;
+echo "CREATE ALL THE DIRECTORIES";
 cd ~;
 mkdir ~/Workspace;
 mkdir ~/extras;
 mkdir ~/extras/Programs;
 mkdir ~/.ssh;
 
-echo UPGRADE ALL THE THINGS
+
+echo "UPDATE ALL THE LOCAL REPOS!!"
+sudo apt-get update
+echo "UPGRADE ALL THE THINGS!!!!!"
 sudo apt-get upgrade;
 
-echo GET GPARTED FOR PARTITION ALTERATION;
+echo "GET GPARTED FOR PARTITION ALTERATION";
 sudo apt-get install gparted;
 
-echo GET FISH SHELL FOR GREAT JUSTICE;
-sudo apt-add-repository ppa:fish-shell/release-2; sudo apt-get update; sudo apt-get install fish;
+echo "GET FISH SHELL FROM THE 1990s WORLD WIDE WEB";
+sudo apt-add-repository ppa:fish-shell/release-2; 
+sudo apt-get update; 
+sudo apt-get install fish;
 
-echo GET CHROME;
+echo "GET CHROME";
 sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list';
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -;
 sudo apt-get update;
 sudo apt-get install google-chrome-stable;
 sudo rm /etc/apt/sources.list.d/google-chrome.list;
 
-echo GET NETFLIX FOR LINUX
-echo IT IS LARGER THAN 300MB
+echo "GET NETFLIX FOR LINUX"
+echo "IT IS LARGER THAN 300MB"
 sudo apt-add-repository ppa:ehoover/compholio;
 sudo apt-get update;
 sudo apt-get install netflix-desktop;
 
-echo GET SHUTTER FOR TAKING SCREENSHOTS (a lot like snippet);
+echo "GET SHUTTER FOR TAKING SCREENSHOTS (a lot like snippet)";
 sudo apt-get shutter;
 
-echo DEV STUFF FOLLOWS;
+echo "DEV STUFF FOLLOWS";
 
+
+echo "GET SUBLIME TEXT 3";
+sudo add-apt-repository ppa:webupd8team/sublime-text-3;
+sudo apt-get update;
+sudo apt-get install sublime-text-installer; 
 echo GET GIT;
 sudo apt-get install git;
 
@@ -77,14 +89,11 @@ bash;
 
 
 
-echo GET SUBLIME TEXT 3;
-sudo add-apt-repository ppa:webupd8team/sublime-text-3;
-sudo apt-get update;
-sudo apt-get install sublime-text-installer; 
 
 
 
 
+echo "GET THE PYTHON2.7.5+"
 sudo apt-get install python-pip; 
 sudo apt-get install phantomjs
 
