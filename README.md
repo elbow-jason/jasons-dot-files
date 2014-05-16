@@ -1,7 +1,13 @@
-jason-s-post-reinstall-commands
+fresh-mint-install
 ===============================
-a little python file AND a shell script of all commands I run after reinstalling my entire OS.
+A shell script of all commands I run after reinstalling my entire OS. 
+Powered by a small python script.
+
+
+info:
+--------
 I currently use Linux Mint 16 Petra (Ubuntu 13.10, Saucy Salamander).
+caveat: I have yet to try the script. Will do soon. 
 
 
 use:
@@ -24,7 +30,7 @@ To produce doit.sh, I run `$ python conkat.py` before I push.
 
 what conkat.py does:
 -----------
-conkat.py removes '\n' (newlines) from jasons-commands.sh and saves the altered text in doit.sh
+conkat.py removes '\n' (newlines) from jasons-commands.sh and saves the altered text in doit.sh (it's only 7 lines of working code)
 
 this shell script...
 ----------------
