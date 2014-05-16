@@ -61,9 +61,12 @@ this shell script...
 		+ bundle			(for packaging a ruby project's gem dependecies)
 	+ sublime text 3        (i like the color and the autocomplete best)
 	+ python-pip			(python does not work without pip. DONT LIE TO YOURSELF.)
-	+ phantomjs				(from a repo so i takes 1/100000th the time to install)
+		+ ipython			(the best python package ever. EVER.)
+		+ ipython notebook	(the best way to learn python)
 
-* configures	(assuming you entered your the info correctly):
+	+ phantomjs				(from a repo so it takes 1/100000th the time to install)
+
+* configures (assuming you entered your the info correctly):
 	+ git               	(generates and saves local SSH key and sets up git globals)
 
 

@@ -58,6 +58,7 @@ cd node;
 ./configure; 
 make; 
 sudo make install;
+sudo apt-get install phantomjs;
 
 echo "GET THE RUBY";
 echo;
@@ -73,7 +74,7 @@ bash;
 
 echo "GET THE PYTHON2.7.5+"
 sudo apt-get install python-pip; 
-sudo apt-get install phantomjs
+sudo apt-get install ipython-notebook;
 
 echo "SETUP GIT SSH ";
 cd ~/.ssh;
@@ -90,5 +91,5 @@ git config --global user.name $users_name ;
 
 echo "KEEP THE AUTOREMOVE AS THE LAST FUCNTIONAL COMMAND";
 sudo apt-get autoremove;
-echo "FRESH MIINT INSTALL COMPLETE";
+echo "FRESH MINT INSTALL COMPLETE";
 echo "HAVE A NICE DAY ;) ";
