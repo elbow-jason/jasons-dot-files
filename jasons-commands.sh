@@ -92,5 +92,6 @@ git config --global user.name $users_name ;
 
 echo "KEEP THE AUTOREMOVE AS THE LAST FUCNTIONAL COMMAND";
 sudo apt-get autoremove;
+chsh -s /usr/bin/fish;
 echo "FRESH MINT INSTALL COMPLETE";
 echo "HAVE A NICE DAY ;) ";
